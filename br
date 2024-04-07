@@ -4,3 +4,15 @@ P2
 damp relax need hand hello gas drama monster before lamp essence marriage wrap drama beef sing begin curious erupt easy topic cloud raven broccoli fire
 WRcvr
 believe lock health detect lion gather diet flock isolate glide bright truly
+
+For Debian and Ubuntu
+_______________________________________________________________
+sudo apt install curl
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
+
+sudo apt install brave-browser
