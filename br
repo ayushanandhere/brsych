@@ -16,3 +16,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo apt update
 
 sudo apt install brave-browser
+___________________________________________________
+brsych25
+
+https://alexeybarabash.github.io/25th-brave-sync-word/
